@@ -1,0 +1,11 @@
+
+write_Sensor_State ./IO_Files/A/0.a.ssv 0
+write_Sensor_State ./IO_Files/A/1.a.ssv 1
+write_Sensor_State ./IO_Files/A/2.a.ssv 2
+write_Sensor_State ./IO_Files/A/3.a.ssv 3
+write_Sensor_State ./IO_Files/A/4.a.ssv 4
+write_Sensor_State ./IO_Files/A/5.a.ssv 5
+write_Sensor_State ./IO_Files/A/6.a.ssv 6
+write_Sensor_State ./IO_Files/A/7.a.ssv 7
+
+write_String ./Control_Panel_Flag.ssv 1

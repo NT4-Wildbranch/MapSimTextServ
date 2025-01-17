@@ -1,0 +1,4 @@
+read_Actuator_State ./IO_Files/E/0.e.ssv 0
+read_Actuator_State ./IO_Files/E/1.e.ssv 1
+read_Actuator_State ./IO_Files/E/2.e.ssv 2
+read_Actuator_State ./IO_Files/E/3.e.ssv 3

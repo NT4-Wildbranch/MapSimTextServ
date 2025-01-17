@@ -1,0 +1,30 @@
+help
+
+new_Map 15 15
+
+set_Idle_Time 2500
+
+add_Actuator 1 1 400
+add_Actuator 6 6 0
+add_Actuator 8 8 400
+add_Actuator 14 14 0
+
+add_Sensor 0 0
+add_Sensor 14 0
+add_Sensor 0 14
+add_Sensor 14 14
+
+add_Sensor 7 0
+add_Sensor 14 7
+add_Sensor 7 14
+add_Sensor 0 7
+
+toggle_Actuator 0 0
+toggle_Actuator 1 0
+toggle_Actuator 2 0
+toggle_Actuator 3 0
+
+write_Actuator_State ./IO_Files/E/0.e.ssv 0
+write_Actuator_State ./IO_Files/E/1.e.ssv 1
+write_Actuator_State ./IO_Files/E/2.e.ssv 2
+write_Actuator_State ./IO_Files/E/3.e.ssv 3
